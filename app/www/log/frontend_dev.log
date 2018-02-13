@@ -1,0 +1,48 @@
+Feb 13 22:35:58 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Feb 13 22:35:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 13 22:35:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 13 22:35:59 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Feb 13 22:35:59 symfony [info] {sfPHPView} Render "/var/www/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+Feb 13 22:35:59 symfony [info] {sfPHPView} Decorate content with "/var/www/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Feb 13 22:35:59 symfony [info] {sfPHPView} Render "/var/www/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Feb 13 22:35:59 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /var/www/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409))
+Feb 13 22:35:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 13 22:35:59 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /var/www/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409))
+Feb 13 22:35:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 13 22:35:59 symfony [info] {sfWebDebugLogger} Configuration 709.92 ms (9)
+Feb 13 22:35:59 symfony [info] {sfWebDebugLogger} Factories 1032.70 ms (1)
+Feb 13 22:35:59 symfony [info] {sfWebDebugLogger} Action "default/index" 0.39 ms (1)
+Feb 13 22:35:59 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 180.36 ms (1)
+Feb 13 22:35:59 symfony [info] {sfWebResponse} Send content (29396 o)
+Feb 13 22:38:57 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Feb 13 22:38:57 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 13 22:38:57 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 13 22:38:57 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Feb 13 22:38:57 symfony [info] {sfPHPView} Render "/var/www/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+Feb 13 22:38:57 symfony [info] {sfPHPView} Decorate content with "/var/www/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Feb 13 22:38:57 symfony [info] {sfPHPView} Render "/var/www/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Feb 13 22:38:57 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /var/www/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409))
+Feb 13 22:38:57 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 13 22:38:57 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /var/www/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409))
+Feb 13 22:38:57 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 13 22:38:57 symfony [info] {sfWebDebugLogger} Configuration 223.67 ms (9)
+Feb 13 22:38:57 symfony [info] {sfWebDebugLogger} Factories 256.54 ms (1)
+Feb 13 22:38:57 symfony [info] {sfWebDebugLogger} Action "default/index" 0.28 ms (1)
+Feb 13 22:38:57 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 103.96 ms (1)
+Feb 13 22:38:57 symfony [info] {sfWebResponse} Send content (29372 o)
+Feb 13 22:42:42 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Feb 13 22:42:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 13 22:42:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 13 22:42:42 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Feb 13 22:42:42 symfony [info] {sfPHPView} Render "/var/www/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+Feb 13 22:42:42 symfony [info] {sfPHPView} Decorate content with "/var/www/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Feb 13 22:42:42 symfony [info] {sfPHPView} Render "/var/www/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Feb 13 22:42:42 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /var/www/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409))
+Feb 13 22:42:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 13 22:42:42 symfony [warning] {sfWebDebugLogger}  Warning at /var/www/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /var/www/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409))
+Feb 13 22:42:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 13 22:42:42 symfony [info] {sfWebDebugLogger} Configuration 85.84 ms (9)
+Feb 13 22:42:42 symfony [info] {sfWebDebugLogger} Factories 267.51 ms (1)
+Feb 13 22:42:42 symfony [info] {sfWebDebugLogger} Action "default/index" 0.44 ms (1)
+Feb 13 22:42:42 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 111.48 ms (1)
+Feb 13 22:42:42 symfony [info] {sfWebResponse} Send content (29339 o)

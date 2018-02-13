@@ -1,0 +1,18 @@
+version: '3'
+services:
+  mysql:
+    build: ./mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: pass
+    volumes:
+      - db:/var/lib/mysql
+  app:
+    build: ./app
+    ports:
+      - '80:80'
+    volumes:
+      - ./app/www:/var/www
+    depends_on:
+      - mysql
+volumes:
+  db:

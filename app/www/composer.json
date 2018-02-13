@@ -1,0 +1,16 @@
+{
+    "config":{
+      "vendor-dir": "./vendor/composer"
+    },
+    "name": "yokada/www",
+    "authors": [
+        {
+            "name": "Yoji Okada",
+            "email": "yokada.moo.jp@gmail.com"
+        }
+    ],
+    "require-dev": {
+      "phpunit/phpunit": "4.8.*",
+      "phpunit/dbunit": "2.0.*"
+    }
+}
